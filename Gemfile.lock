@@ -61,6 +61,7 @@ GEM
       tzinfo (~> 2.0)
       zeitwerk (~> 2.3)
     ast (2.4.2)
+    bcrypt (3.1.16)
     bindex (0.8.1)
     bootsnap (1.9.0)
       msgpack (~> 1.0)
@@ -190,6 +191,7 @@ PLATFORMS
   x86_64-darwin-19
 
 DEPENDENCIES
+  bcrypt (~> 3.1.13)
   bootsnap (>= 1.4.4)
   byebug
   graphiql-rails
