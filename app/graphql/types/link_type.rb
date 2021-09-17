@@ -5,5 +5,7 @@ module Types
     field :id, ID, 'identifier', null: false
     field :url, String, 'url', null: false
     field :description, String, 'full description', null: false
+    field :posted_by, UserType, null: true, method: :user
+    field :votes, [Types::VoteType], null: false
   end
 end

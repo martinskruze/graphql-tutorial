@@ -18,6 +18,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.4', require: false
 
 gem 'graphql', '1.11.6'
+gem 'search_object_graphql', '0.3.1'
 
 gem 'bcrypt', '~> 3.1.13'
 
